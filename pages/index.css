@@ -1,0 +1,18 @@
+/*начало - общие стили*/
+@import url(../vendor/css/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/root/root.css);
+/*конец - общие стили*/
+/*___*/
+/*начало - header*/
+@import url(../blocks/header/header.css);
+/*конец - header*/
+/*___*/
+/*начало - content*/
+
+/*конец - content*/
+/*___*/
+/*начало - footer*/
+
+/*конец - footer*/
+/*___*/
