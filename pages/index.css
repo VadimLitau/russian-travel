@@ -23,6 +23,10 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 /*/intro*/
+/*photo-gallery*/
+@import url(../blocks/photo-gallery/photo-gallery.css);
+@import url(../blocks/photo-gallery/__photo/photo-gallery__photo.css);
+/*/photo-gallery*/
 /*конец - content*/
 /*___*/
 /*начало - footer*/
