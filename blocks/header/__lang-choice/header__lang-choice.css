@@ -1,0 +1,10 @@
+.header__lang-choice{
+  text-decoration: none;
+  color:#FFF;  
+}
+
+
+.header__lang-choice:hover{
+  text-decoration: underline #FFF;
+  color:#FFF;  
+}

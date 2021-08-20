@@ -6,6 +6,8 @@
 /*___*/
 /*начало - header*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-choice/header__lang-choice.css);
+@import url(../blocks/header/__lang/header__lang.css);
 /*конец - header*/
 /*___*/
 /*начало - content*/
