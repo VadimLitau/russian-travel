@@ -35,7 +35,12 @@
 @import url(../blocks/places/__place-paragraph/places__place-paragraph.css);
 @import url(../blocks/places/__place-title/_indent/places__place-title_indent_null.css);
 /*/places*/
-
+/*cover*/
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+/*/cover*/
 /*конец - content*/
 /*___*/
 /*начало - footer*/
