@@ -1,0 +1,5 @@
+.places__website-wrap {
+  align-items: end;
+  display: grid;  
+  padding-bottom: 48px;
+}

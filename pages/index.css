@@ -34,6 +34,7 @@
 @import url(../blocks/places/__place-website/places__place-website.css);
 @import url(../blocks/places/__place-paragraph/places__place-paragraph.css);
 @import url(../blocks/places/__place-title/_indent/places__place-title_indent_null.css);
+@import url(../blocks/places/__website-wrap/places__website-wrap.css);
 /*/places*/
 /*cover*/
 @import url(../blocks/cover/cover.css);
@@ -44,6 +45,8 @@
 /*конец - content*/
 /*___*/
 /*начало - footer*/
-
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav-element/footer__nav-element.css);
+@import url(../blocks/footer/__author/footer__author.css);
 /*конец - footer*/
 /*___*/
