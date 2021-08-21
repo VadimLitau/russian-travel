@@ -27,6 +27,15 @@
 @import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/photo-gallery/__photo/photo-gallery__photo.css);
 /*/photo-gallery*/
+/*places*/
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__place-wrap/places__place-wrap.css);
+@import url(../blocks/places/__place-title/places__place-title.css);
+@import url(../blocks/places/__place-website/places__place-website.css);
+@import url(../blocks/places/__place-paragraph/places__place-paragraph.css);
+@import url(../blocks/places/__place-title/_indent/places__place-title_indent_null.css);
+/*/places*/
+
 /*конец - content*/
 /*___*/
 /*начало - footer*/

@@ -1,0 +1,6 @@
+.places__place-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(76px 152px) 460px;
+}
+
