@@ -37,6 +37,7 @@
 @import url(../blocks/places/__place-paragraph/places__place-paragraph.css);
 @import url(../blocks/places/__place-title/_indent/places__place-title_indent_null.css);
 @import url(../blocks/places/__website-wrap/places__website-wrap.css);
+@import url(../blocks/places/__place-image/places__place-image.css);
 /*/places*/
 /*cover*/
 @import url(../blocks/cover/cover.css);
@@ -50,5 +51,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__nav-element/footer__nav-element.css);
 @import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
 /*конец - footer*/
 /*___*/

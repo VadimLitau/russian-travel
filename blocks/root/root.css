@@ -5,3 +5,21 @@
   font-family: 'Inter', 'Arial', sans-serif;
   color: #fff;
 }
+
+@media (max-width: 1024px){
+  .root{
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px){
+  .root{
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px){
+  .root{
+    max-width: 320px;
+  }
+}

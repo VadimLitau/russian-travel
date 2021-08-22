@@ -4,3 +4,10 @@
   grid-template-rows: minmax(76px 152px) 460px;
 }
 
+@media (max-width: 320px){
+  .places__place-wrap {
+    display: grid;
+    max-width: 320px;
+    grid-template-columns: 1fr;
+  }
+}

@@ -2,7 +2,23 @@
   max-width: 1184px;
   margin: 0 auto;
   padding: 92px 0 24px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px){
+  .footer {
+    max-width: 928px; 
+  }
+}
+
+@media (max-width: 320px){
+  .footer {
+    max-width: 186px; 
+    padding: 64px 0 0 16px;
+    display: block;
+    margin: 0;
+  }
 }

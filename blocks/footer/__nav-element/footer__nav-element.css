@@ -1,6 +1,11 @@
 .footer__nav-element {
-  text-decoration: none;
-  color: #fff;
-  padding-right: 18px;
   display: inline;
 }
+
+@media (max-width: 320px) {
+  .footer__nav-element {    
+    display: block;
+    padding-bottom: 32px;
+  }
+}
+

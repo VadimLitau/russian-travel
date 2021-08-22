@@ -27,7 +27,9 @@
 @media (max-width: 320px) 
 {
   .header {    
+  display: flex;  
   max-width: 288px;
   grid-column-gap: 84px;
+  grid-template-columns: 176px 68px;
   }
 }

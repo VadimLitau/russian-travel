@@ -3,3 +3,18 @@
   padding-left: 148px;
   margin-top: 114px;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    padding-left: 0;
+    margin: 114px auto 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    margin: 114px auto 0;
+  }
+}
