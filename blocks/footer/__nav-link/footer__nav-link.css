@@ -3,3 +3,8 @@
   color: #fff;
   padding-right: 18px;
 }
+
+.footer__nav-link:hover{
+  color: #aaa;
+}
+

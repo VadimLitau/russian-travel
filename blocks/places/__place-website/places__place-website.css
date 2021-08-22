@@ -2,5 +2,6 @@
   color: #fff;
 }
 
-
-
+.places__place-website:hover {
+  color: #AAA;
+}
