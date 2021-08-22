@@ -3,3 +3,9 @@
   display: grid;  
   padding-bottom: 48px;
 }
+
+@media (max-width: 320px){
+  .places__website-wrap {
+    padding-left: 16px;
+  }
+}

@@ -53,5 +53,6 @@
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__nav-element/_indent/footer__nav-element_indent_more.css);
 /*конец - footer*/
 /*___*/

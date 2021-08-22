@@ -2,12 +2,25 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: minmax(76px 152px) 460px;
+  grid-column-gap: 40px;
+}
+
+@media (max-width: 1024px){
+  .places__place-wrap {
+    grid-column-gap: 32px;
+  }
+}
+
+@media (max-width: 768px){
+  .places__place-wrap {
+    grid-column-gap: 28px;
+  }
 }
 
 @media (max-width: 320px){
   .places__place-wrap {
-    display: grid;
     max-width: 320px;
     grid-template-columns: 1fr;
+    grid-column-gap: 0;
   }
 }

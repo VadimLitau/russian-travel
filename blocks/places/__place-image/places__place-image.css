@@ -21,5 +21,6 @@
   .places__place-image {
     width: 320px;
     height: 320px;
+    padding-bottom: 32px;
   }
 }

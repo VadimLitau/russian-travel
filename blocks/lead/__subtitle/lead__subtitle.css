@@ -4,34 +4,29 @@
   font-size: 30px;
   line-height: 1.1;
   max-width: 640px;
+  min-width: 630px;
   padding-bottom: 64px;
   margin: 0 auto;
   text-align: center;
 }
 
-@media (max-width: 580px){
+@media (max-width: 1024px){
   .lead__subtitle {
-    font-size: 27px;
+    padding-bottom: 56px;
   }
 }
-
-@media (max-width: 440px){
+/*
+@media (max-width: 768px){
   .lead__subtitle {
-    font-size: 23px;
-    line-height: 1.1;
   }
-}
-
-@media (max-width: 380px){
-  .lead__subtitle {
-    font-size: 20px;
-    line-height: 1.1;
-  }
-}
+}*/
 
 @media (max-width: 320px){
   .lead__subtitle {
+    max-width: 288px;
+    min-width: 278px;
     font-size: 16px;
     line-height: 1.1;
+    padding-bottom: 40px;
   }
 }

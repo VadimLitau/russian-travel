@@ -16,5 +16,6 @@
   .places__place-paragraph {
     font-size: 16px;
     line-height: 1.65;
+    padding-left: 16px;
   }
 }

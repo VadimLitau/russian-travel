@@ -9,11 +9,17 @@
   margin: 0 auto;
   padding-top: 8px;
 }
+@media (max-width: 1024px){
+  .lead__caption {
+    max-width: 768px;
+    margin: 0;
+    padding-left: 48px;
+  }
+}
 
 @media (max-width: 768px){
   .lead__caption {
     max-width: 768px;
-    margin: 0;
     padding-left: 24px;
   }
 }
