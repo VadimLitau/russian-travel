@@ -6,4 +6,32 @@
   max-width: 640px;
   padding-bottom: 64px;
   margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 580px){
+  .lead__subtitle {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 440px){
+  .lead__subtitle {
+    font-size: 23px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 380px){
+  .lead__subtitle {
+    font-size: 20px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 320px){
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 1.1;
+  }
 }

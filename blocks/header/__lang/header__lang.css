@@ -17,3 +17,10 @@
   max-width: 928px;
   }
 }
+
+@media (max-width: 320px) 
+{
+  .header__lang {   
+    font-size: 18px;
+  }
+}
