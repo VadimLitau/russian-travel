@@ -3,6 +3,31 @@
   max-height: 52px;
   margin: 28px auto 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 176px 78px;
   grid-template-rows: 1fr;
+  grid-column-gap: 931px;
+}
+
+@media (max-width: 1024px) 
+{
+  .header {    
+  max-width: 928px;
+  grid-column-gap: 675px;
+  }
+}
+
+@media (max-width: 768px) 
+{
+  .header {    
+  max-width: 720px;
+  grid-column-gap: 467px;
+  }
+}
+
+@media (max-width: 320px) 
+{
+  .header {    
+  max-width: 288px;
+  grid-column-gap: 84px;
+  }
 }
