@@ -22,10 +22,10 @@
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 600px){
   .footer {
     max-width: 186px; 
-    display: block;
+    flex-direction: column;
     margin: 64px 0 0;
   }
 }

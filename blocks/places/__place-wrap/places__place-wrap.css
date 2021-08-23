@@ -16,11 +16,15 @@
     grid-column-gap: 28px;
   }
 }
+@media (max-width: 600px){
+  .places__place-wrap {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+  }
+}
 
 @media (max-width: 320px){
   .places__place-wrap {
     max-width: 320px;
-    grid-template-columns: 1fr;
-    grid-column-gap: 0;
   }
 }

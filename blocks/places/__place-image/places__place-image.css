@@ -17,10 +17,10 @@
   }
 }
 
-@media (max-width:320px){
+@media (max-width:600px){
   .places__place-image {
-    width: 320px;
-    height: 320px;
+    width: 310px;
+    height: 310px;
     padding-bottom: 32px;
   }
 }
