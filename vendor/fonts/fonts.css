@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Inter';
-  font-weight: black;
+  font-weight: 900;/*это связано с тем, что интерпретатор воспринимает "black" как цвет, а не значение свойства, да?*/
   src: url(Inter/Inter-Black.ttf) format('truetype');
   src: url(Inter/Inter-Black.woff) format('woff');
   src: url(Inter/Inter-Black.woff2) format('woff2');
