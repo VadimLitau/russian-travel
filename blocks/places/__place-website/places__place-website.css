@@ -1,7 +1,21 @@
 .places__place-website {
-  color: #fff;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .places__place-website:hover {
-  color: #AAA;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.places__place-website:not(:hover) {
+    opacity: 1;
+    transition: 1s;
+}
+
+@media (max-width: 320px) {
+    .places__place-website {
+        padding: 12px 0 32px;
+    }
 }

@@ -1,6 +1,5 @@
-@media (max-width: 600px) {
-  .footer__nav-element {  
-    padding-bottom: 32px;
-  }
+@media (max-width: 320px) {
+    .footer__nav-element {
+        padding-bottom: 32px;
+    }
 }
-

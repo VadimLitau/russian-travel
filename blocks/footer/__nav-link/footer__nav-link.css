@@ -1,10 +1,22 @@
-.footer__nav-link{
-  text-decoration: none;
-  color: #fff;
-  padding-right: 18px;
+.footer__nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 18px;
 }
 
-.footer__nav-link:hover{
-  color: #aaa;
+.footer__nav-link:hover {
+    opacity: 0.8;
+    transition: 1s;
 }
 
+.footer__nav-link:not(:hover) {
+    opacity: 1;
+    transition: 1s;
+}
+
+@media (max-width: 320px) {
+    .footer__nav-link {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

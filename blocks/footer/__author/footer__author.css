@@ -1,9 +1,13 @@
 .footer__author {
-  text-align: right;
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: normal;
 }
 
-@media (max-width: 320px){
-  .footer__author {
-    text-align: left;
-  }
+@media (max-width: 320px) {
+    .footer__author {
+        padding-top: 16px;
+    }
 }

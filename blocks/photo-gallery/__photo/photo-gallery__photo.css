@@ -1,25 +1,25 @@
 .photo-gallery__photo {
-  width: 284px;
-  height: 213px;
+    width: 284px;
+    height: 213px;
 }
 
-@media (max-width: 1024px){
-  .photo-gallery__photo {
-    width: 300px;
-    height: 225px;
-  }
+@media (max-width: 1024px) {
+    .photo-gallery__photo {
+        width: 300px;
+        height: 225px;
+    }
 }
 
-@media (max-width: 768px){
-  .photo-gallery__photo {
-    width: 352px;
-    height: 264px;
-  }
+@media (max-width: 768px) {
+    .photo-gallery__photo {
+        width: 352px;
+        height: 264px;
+    }
 }
 
-@media (max-width: 600px){
-  .photo-gallery__photo {
-    width: 288px;
-    height: 216px;
-  }
+@media (max-width: 320px) {
+    .photo-gallery__photo {
+        width: 288px;
+        height: 216px;
+    }
 }

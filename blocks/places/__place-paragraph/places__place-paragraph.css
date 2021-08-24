@@ -1,21 +1,20 @@
 .places__place-paragraph {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.65;
-  margin-top: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    margin-top: 0;
 }
 
-@media (max-width: 768px){
-  .places__place-paragraph {
-    font-size: 16px;
-    line-height: 1.65;
-  }
+@media (max-width: 768px) {
+    .places__place-paragraph {
+        font-size: 16px;
+    }
 }
-@media (max-width: 320px){
-  .places__place-paragraph {
-    font-size: 16px;
-    line-height: 1.65;
-    padding-left: 16px;
-  }
+
+@media (max-width: 320px) {
+    .places__place-paragraph {
+        font-size: 16px;
+        padding-left: 16px;
+    }
 }

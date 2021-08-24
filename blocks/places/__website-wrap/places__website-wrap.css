@@ -1,11 +1,13 @@
 .places__website-wrap {
-  align-items: end;
-  display: grid;  
-  padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 48px;
 }
 
-@media (max-width: 320px){
-  .places__website-wrap {
-    padding-left: 16px;
-  }
+@media (max-width: 320px) {
+    .places__website-wrap {
+        padding-left: 16px;
+        padding-bottom: 0;
+    }
 }

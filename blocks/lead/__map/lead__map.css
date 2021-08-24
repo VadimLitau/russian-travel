@@ -1,18 +1,25 @@
 .lead__map {
-  max-width: 984px;
-  max-height: 615px;
+    max-width: 984px;
+    max-height: 615px;
 }
 
-@media (max-width:1280px){
-  .lead__map {
-    max-width: 96vw;
-    max-height: 96vh;
-  }
+@media (max-width:1024px) {
+    .lead__map {
+        max-width: 928px;
+        max-height: 580px;
+    }
 }
 
-@media (max-width:320px){
-  .lead__map {
-    width: 320px;
-    height: 200px;
-  }
+@media (max-width:768px) {
+    .lead__map {
+        max-width: 768px;
+        max-height: 480px;
+    }
+}
+
+@media (max-width:320px) {
+    .lead__map {
+        width: 320px;
+        height: 200px;
+    }
 }

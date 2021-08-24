@@ -1,35 +1,65 @@
 /*начало - общие стили*/
+
 @import url(../vendor/css/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
+
 /*конец - общие стили*/
+
+
 /*___*/
+
+
 /*начало - header*/
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-choice/header__lang-choice.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-choice/_indent/header__lang-choice_indent_null.css);
+@import url(../blocks/header/__lang-choice/_active/header__lang-choice_active.css);
+
 /*конец - header*/
+
+
 /*___*/
+
+
 /*начало - content*/
+
+
 /*lead*/
+
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__map/lead__map.css);
+
 /*/lead*/
+
+
 /*intor*/
+
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__normal-text/intro__normal-text.css);
+
 /*/intro*/
+
+
 /*photo-gallery*/
+
 @import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/photo-gallery/__photo/photo-gallery__photo.css);
+
 /*/photo-gallery*/
+
+
 /*places*/
+
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__place-wrap/places__place-wrap.css);
 @import url(../blocks/places/__place-title/places__place-title.css);
@@ -38,21 +68,38 @@
 @import url(../blocks/places/__place-title/_indent/places__place-title_indent_null.css);
 @import url(../blocks/places/__website-wrap/places__website-wrap.css);
 @import url(../blocks/places/__place-image/places__place-image.css);
+@import url(../blocks/places/__place-url/places__place-url.css);
+
 /*/places*/
+
+
 /*cover*/
+
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__link/cover__link.css);
+
 /*/cover*/
+
+
 /*конец - content*/
+
+
 /*___*/
+
+
 /*начало - footer*/
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__nav-element/footer__nav-element.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__nav-link/footer__nav-link.css);
 @import url(../blocks/footer/__nav-element/_indent/footer__nav-element_indent_more.css);
+
 /*конец - footer*/
+
+
 /*___*/
