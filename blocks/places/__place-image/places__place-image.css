@@ -17,6 +17,13 @@
     }
 }
 
+@media (max-width:720px) {
+    .places__place-image {
+        width: 400px;
+        height: 400px;
+    }
+}
+
 @media (max-width:600px) {
     .places__place-image {
         width: 320px;

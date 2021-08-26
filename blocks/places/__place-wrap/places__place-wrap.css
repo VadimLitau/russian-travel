@@ -1,7 +1,7 @@
 .places__place-wrap {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 460px;
+    grid-template-columns: 460px auto;
+    grid-template-rows: repeat(1fr, auto-fill);
     grid-column-gap: 40px;
 }
 
@@ -13,15 +13,26 @@
 
 @media (max-width: 768px) {
     .places__place-wrap {
+        max-width: 720px;
         grid-column-gap: 28px;
+        grid-template-columns: 340px auto;
+        grid-template-rows: repeat(minmax(46px, 92px), auto-fill);
+    }
+}
+
+@media (max-width: 720px) {
+    .places__place-wrap {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fill, auto);
     }
 }
 
 @media (max-width: 320px) {
     .places__place-wrap {
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
         grid-column-gap: 0;
         max-width: 320px;
+        justify-items: normal;
     }
 }

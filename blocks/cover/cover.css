@@ -1,30 +1,39 @@
  .cover {
      max-width: 1184px;
-     max-height: 740px;
      margin: 0 auto;
      background-image: url(../../images/cover/__background.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
+     background-blend-mode: multiply;
+     background-color: rgba(42, 44, 47, .3);
+ }
+ 
+ .cover:hover {
+     background-color: rgba(42, 44, 47, .8);
+     transition: 1s;
+ }
+ 
+ .cover:not(:hover) {
+     background-color: none;
+     transition: 1s;
  }
  
  @media (max-width: 1024px) {
      .cover {
          max-width: 1024px;
-         max-height: 640px;
+         /*с высотой крайне глупо получилось, признаю. Я ведь сам размеры элементы паддингами создал*/
      }
  }
  
- @media (max-width: 768px) {
+ @media (max-width: 950px) {
      .cover {
          max-width: 768px;
-         max-height: 480px;
      }
  }
  
  @media (max-width: 320px) {
      .cover {
          max-width: 320px;
-         max-height: 200px;
      }
  }

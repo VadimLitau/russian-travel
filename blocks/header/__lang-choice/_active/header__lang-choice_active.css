@@ -1,3 +1,4 @@
 .header__lang-choice_active {
-  text-decoration: underline #FFF;
+    text-decoration: underline #FFF;
+    padding-right: 18px;
 }

@@ -6,14 +6,14 @@
 @media (max-width: 1024px) {
     .places {
         max-width: 928px;
-        margin: 88px auto 92px;
+        margin: 12px auto 92px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .places {
         max-width: 720px;
-        margin: 8px auto 90px;
+        margin: 15px auto 90px;
     }
 }
 

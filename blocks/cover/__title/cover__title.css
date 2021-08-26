@@ -22,11 +22,16 @@
     }
 }
 
+@media (max-width: 550px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
 @media (max-width: 320px) {
     .cover__title {
         padding-top: 33px;
         padding-bottom: 16px;
-        font-size: 32px;
-        line-height: 35px;
     }
 }

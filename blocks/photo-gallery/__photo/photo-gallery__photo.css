@@ -17,7 +17,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 370px) {
     .photo-gallery__photo {
         width: 288px;
         height: 216px;

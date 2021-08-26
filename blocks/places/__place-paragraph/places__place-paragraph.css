@@ -1,20 +1,30 @@
 .places__place-paragraph {
+    max-width: 456px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 163%;
-    margin-top: 0;
+    line-height: 30.44px;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
     .places__place-paragraph {
         font-size: 16px;
+        line-height: 26px;
     }
 }
 
 @media (max-width: 320px) {
     .places__place-paragraph {
         font-size: 16px;
-        padding-left: 16px;
+        padding: 0 16px;
     }
+}
+
+.places__place-paragraph:first-child {
+    padding-bottom: 25px;
+}
+
+.places__place-paragraph:last-child {
+    padding-bottom: 0;
 }

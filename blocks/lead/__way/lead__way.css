@@ -1,0 +1,30 @@
+.lead__way {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(../../../images/lead/lead__map.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 984px;
+    padding-bottom: 615px;
+}
+
+@media (max-width:1024px) {
+    .lead__way {
+        max-width: 928px;
+        padding-bottom: 580px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead__way {
+        max-width: 768px;
+        padding-bottom: 480px;
+    }
+}
+
+@media (max-width:320px) {
+    .lead__way {
+        width: 320px;
+        padding-bottom: 200px;
+    }
+}
