@@ -1,22 +1,13 @@
  .cover {
+     display: flex;
+     /*Пока додумался что тут надо применить флекс, чтобы ссылка была на весь блок, думал вырву себе все волосы, а мне их жалко, 12 лет растил!=)*/
+     flex-direction: column;
      max-width: 1184px;
      margin: 0 auto;
      background-image: url(../../images/cover/__background.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
-     background-blend-mode: multiply;
-     background-color: rgba(42, 44, 47, .3);
- }
- 
- .cover:hover {
-     background-color: rgba(42, 44, 47, .8);
-     transition: 1s;
- }
- 
- .cover:not(:hover) {
-     background-color: none;
-     transition: 1s;
  }
  
  @media (max-width: 1024px) {

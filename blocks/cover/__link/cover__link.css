@@ -1,4 +1,16 @@
 .cover__link {
     text-decoration: none;
     color: #fff;
+    background: rgba(42, 44, 47, .3);
 }
+
+.cover__link:hover {
+    transition: 1s;
+    background: rgba(42, 44, 47, .8);
+}
+
+
+/*
+.cover__link:not(:hover) {
+   
+}*/

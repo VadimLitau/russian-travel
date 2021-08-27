@@ -5,9 +5,10 @@
     font-size: 18px;
     line-height: 30.44px;
     margin: 0;
+    hyphens: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
     .places__place-paragraph {
         font-size: 16px;
         line-height: 26px;
