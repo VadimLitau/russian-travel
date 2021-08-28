@@ -13,12 +13,12 @@
     font-size: 24px;
     line-height: 28px;
     list-style: none;
-    width: 74px;
+    gap: 18px;
+    /*очуметь, без вашей подсказки, я бы до сих пор считал, что gap можно использовать только в гридах. Спасибо!!!*/
 }
 
 @media (max-width: 320px) {
     .header__lang {
-        width: 58px;
         font-size: 18px;
     }
 }
